@@ -1,51 +1,69 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #1A1A33;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #1a1a33;
 }
 
-.contenedorOne{
-    background-color: #1A1A33;
-    overflow-y: auto;
+nav {
+  background-color: #030303;
+  height: 10rem;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.iconsOpciones{
+    margin-left: 96%;
+}
+
+.logo-img {
+  width: auto;
+  height: 10rem;
+}
+.contenedorOne {
+  background-color: #1a1a33;
+  overflow-y: auto;
 }
 
 header {
-    background-color: #1E1E1E;
-    color: #fff;
-    font-size: 2rem;
-    font-family: 'Inika', sans-serif;
-    text-align: center;
-    padding: 1em;
+  background-color: #1e1e1e;
+  color: #fff;
+  font-size: 2rem;
+  font-family: "Inika", sans-serif;
+  text-align: center;
+  padding: 1em;
 }
 
 section {
-    text-align: center;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    background-color: #1A1A33;
-    padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: #1a1a33;
+  padding: 20px;
 }
 
 article {
-    flex: 1;
-    max-width: 300px;
-    margin: 10px;
-    background-color: #1A1A33;
-    border-radius: 8px;
-     
-    overflow: hidden;
+  flex: 1;
+  max-width: 300px;
+  margin: 10px;
+  background-color: #1a1a33;
+  border-radius: 8px;
+
+  overflow: hidden;
 }
 
 h2 {
-    font-size: 1.3rem;
-    font-family: 'Inika', sans-serif;
-    margin: 1rem;
+  font-size: 1.3rem;
+  font-family: "Inika", sans-serif;
+  margin: 1rem;
 }
 
 p {
-    font-size: 1.6rem;
-    font-family: 'Inika', sans-serif;
-    margin: 1rem;
+  font-size: 1.6rem;
+  font-family: "Inika", sans-serif;
+  margin: 1rem;
 }

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { FaStream } from "react-icons/fa";
 import { Inter } from "next/font/google";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -8,9 +9,13 @@ export default function Home() {
     <>
       <div className="contenedorOne">
         <header>
-          <h1>Restaurante XYZ</h1>
+          <FaStream className="iconsOpciones" />
+          <h1>ANTOJITOS</h1>
           <p>Menú de Comidas</p>
         </header>
+        <nav>
+          <img src="/images/LogoNav.jpg" alt="LogoNav" className="logo-img" />
+        </nav>
 
         <section>
           <article>
