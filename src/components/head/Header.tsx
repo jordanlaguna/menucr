@@ -31,6 +31,22 @@ const Header = () => {
     event.preventDefault();
     router.push("/modulepasta/pasta");
   };
+  const ClickLinkBurguers = (event: { preventDefault: () => void }) => {
+    event.preventDefault();
+    router.push("/moduleburguer/burguers");
+  };
+  const ClickLinkDrinks = (event: { preventDefault: () => void }) => {
+    event.preventDefault();
+    router.push("/moduledrinks/drinks");
+  };
+  const ClickLinkBeer = (event: { preventDefault: () => void }) => {
+    event.preventDefault();
+    router.push("/modulebeer/beers");
+  };
+  const ClickLinkSoda = (event: { preventDefault: () => void }) => {
+    event.preventDefault();
+    router.push("/modulesoda/sodas");
+  };
   return (
     <>
       <header className="head-admin">
@@ -81,16 +97,44 @@ const Header = () => {
               </Link>
             </li>
             <li>
-              <Link className="linkS" href="#">
+              <Link
+                className="linkS"
+                href="/moduleburguer/busrguers"
+                onClick={ClickLinkBurguers}
+              >
                 <IoFastFood className="icon-exit" />
                 Burguers
               </Link>
             </li>
             <li>
-              <Link className="linkS" href="#">
+              <Link
+                className="linkS"
+                href="/moduledrinks/dirnks"
+                onClick={ClickLinkDrinks}
+              >
                 <BiSolidDrink className="icon-exit" />
                 Bebidas
               </Link>
+              <ul className="menu-vertical">
+                <li>
+                  <Link
+                    className="link"
+                    href="/modulesoda/sodas"
+                    onClick={ClickLinkSoda}
+                  >
+                    Gaseosas
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    className="link-beer"
+                    href="/modulebeer/beers"
+                    onClick={ClickLinkBeer}
+                  >
+                    Cervezas
+                  </Link>
+                </li>
+              </ul>
             </li>
           </ul>
         </nav>
