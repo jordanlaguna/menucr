@@ -6,44 +6,36 @@ const Article = () => {
           <h3 className="title">Plato #5</h3>
           <img
             className="icon"
-            src="/img/dishs/Casadoeigth.jpg"
+            src="/img/cuts/PolloAhumado.jpeg"
             alt="Not Found"
           />
           <p className="button">
-            Casado De La Casa. <br /> Precio: ₡4950.
+            Pollo Ahumado. <br /> Precio: ₡5550.
           </p>
         </div>
         <div className="column">
           <h3 className="title">Plato #6</h3>
-          <img
-            className="icon"
-            src="/img/dishs/Ejecutivo.webp"
-            alt="Not Found"
-          />
+          <img className="icon" src="/img/cuts/SteakTwo.jpeg" alt="Not Found" />
           <p className="button">
-            Filete Pescado. <br /> Precio: ₡5550.
+            Ribeye Asado. <br /> Precio: ₡8550.
           </p>
         </div>
         <div className="column">
           <h3 className="title">Plato #7</h3>
           <img
             className="icon"
-            src="/img/dishs/Casadoseven.png"
+            src="/img/cuts/ImageSteak.jpeg"
             alt="Not Found"
           />
           <p className="button">
-            Casado Con Churrasco. <br /> Precio: ₡6550.
+            New York Steak. <br /> Precio: ₡8550.
           </p>
         </div>
         <div className="column">
           <h3 className="title">Plato #8</h3>
-          <img
-            className="icon"
-            src="/img/dishs/Gallopinto.jpeg"
-            alt="Not Found"
-          />
+          <img className="icon" src="/img/cuts/Minion.jpg" alt="Not Found" />
           <p className="button">
-            Gallo Pinto Tico. <br /> Precio: ₡3550.
+            Filet de Minion. <br /> Precio: ₡8550.
           </p>
         </div>
       </article>

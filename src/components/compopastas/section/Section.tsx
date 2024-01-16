@@ -4,42 +4,42 @@ const Section = () => {
       <section className="flex text">
         <div className="column">
           <h3 className="title">Plato #1</h3>
-          <img
-            className="icon"
-            src="/img/dishs/CasadoTwo.png"
-            alt="Not Found"
-          />
+          <img className="icon" src="/img/pastas/Pasta.jpg" alt="Not Found" />
           <p className="button">
-            Casado Filete-Pescado. <br /> Precio: ₡3950.
+            Pasta Lenguini. <br /> Precio: ₡4950.
           </p>
         </div>
         <div className="column">
           <h3 className="title">Plato #2</h3>
           <img
             className="icon"
-            src="/img/dishs/casadoThree.jpg"
+            src="/img/pastas/PastaTwo.jpeg"
             alt="Not Found"
           />
           <p className="button">
-            Casado Carne-Salsa. <br /> Precio: ₡4550.
+            Pasta Carne-Salsa. <br /> Precio: ₡4550.
           </p>
         </div>
         <div className="column">
           <h3 className="title">Plato #3</h3>
-          <img className="icon" src="/img/dishs/Casado.webp" alt="Not Found" />
+          <img
+            className="icon"
+            src="/img/pastas/PastaTres.jpg"
+            alt="Not Found"
+          />
           <p className="button">
-            Casado Bistec-Cerdo. <br /> Precio: ₡3550.
+            Pasta En Tomate. <br /> Precio: ₡4550.
           </p>
         </div>
         <div className="column">
           <h3 className="title">Plato #4</h3>
           <img
             className="icon"
-            src="/img/dishs/CasadoFour.jpg"
+            src="/img/pastas/PastaFour.webp"
             alt="Not Found"
           />
           <p className="button">
-            Casado Filete-Pollo. <br /> Precio: ₡4000.
+            Pasta En Salsa Blanca. <br /> Precio: ₡5000.
           </p>
         </div>
       </section>

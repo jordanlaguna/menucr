@@ -6,40 +6,36 @@ const Section = () => {
           <h3 className="title">Plato #1</h3>
           <img
             className="icon"
-            src="/img/dishs/CasadoTwo.png"
+            src="/img/cuts/Costillas.jpeg"
             alt="Not Found"
           />
           <p className="button">
-            Casado Filete-Pescado. <br /> Precio: ₡3950.
+            Costilla Cerdo Ahumada. <br /> Precio: ₡7550.
           </p>
         </div>
         <div className="column">
           <h3 className="title">Plato #2</h3>
-          <img
-            className="icon"
-            src="/img/dishs/casadoThree.jpg"
-            alt="Not Found"
-          />
+          <img className="icon" src="/img/cuts/Tomahawk.jpg" alt="Not Found" />
           <p className="button">
-            Casado Carne-Salsa. <br /> Precio: ₡4550.
+            Tomahawk parrillero. <br /> Precio: ₡9550.
           </p>
         </div>
         <div className="column">
           <h3 className="title">Plato #3</h3>
-          <img className="icon" src="/img/dishs/Casado.webp" alt="Not Found" />
+          <img className="icon" src="/img/cuts/Steak.jpeg" alt="Not Found" />
           <p className="button">
-            Casado Bistec-Cerdo. <br /> Precio: ₡3550.
+            Costilla Res Ahumada. <br /> Precio: ₡9550.
           </p>
         </div>
         <div className="column">
           <h3 className="title">Plato #4</h3>
           <img
             className="icon"
-            src="/img/dishs/CasadoFour.jpg"
+            src="/img/cuts/PolloAsado.jpeg"
             alt="Not Found"
           />
           <p className="button">
-            Casado Filete-Pollo. <br /> Precio: ₡4000.
+            Pollo Asado. <br /> Precio: ₡6000.
           </p>
         </div>
       </section>

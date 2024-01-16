@@ -23,6 +23,14 @@ const Header = () => {
     event.preventDefault();
     router.push("/moduledishs/dishs");
   };
+  const ClickLinkCuts = (event: { preventDefault: () => void }) => {
+    event.preventDefault();
+    router.push("/modulecut/cuts");
+  };
+  const ClickLinkPasta = (event: { preventDefault: () => void }) => {
+    event.preventDefault();
+    router.push("/modulepasta/pasta");
+  };
   return (
     <>
       <header className="head-admin">
@@ -53,25 +61,33 @@ const Header = () => {
               </Link>
             </li>
             <li>
-              <button className="link-b">
+              <Link
+                className="link-b"
+                href="/moduledishs/cuts"
+                onClick={ClickLinkCuts}
+              >
                 <GiMeat className="icon-register" />
                 Cortes
-              </button>
+              </Link>
             </li>
             <li>
-              <Link className="linkS" href="/">
+              <Link
+                className="linkS"
+                href="/modulepasta/pasta"
+                onClick={ClickLinkPasta}
+              >
                 <PiBowlFoodFill className="icon-exit" />
                 Pastas
               </Link>
             </li>
             <li>
-              <Link className="linkS" href="/">
+              <Link className="linkS" href="#">
                 <IoFastFood className="icon-exit" />
                 Burguers
               </Link>
             </li>
             <li>
-              <Link className="linkS" href="/">
+              <Link className="linkS" href="#">
                 <BiSolidDrink className="icon-exit" />
                 Bebidas
               </Link>
