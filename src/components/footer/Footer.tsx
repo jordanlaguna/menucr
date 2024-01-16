@@ -12,7 +12,10 @@ const Footer = () => {
           <li className="github-footer">
             <FaInstagram className="icongithub" title="GitHub." />
             <p className="name-github">
-              <a href="https://github.com/jordanlaguna?tab=repositories">
+              <a
+                className="text-white"
+                href="https://github.com/jordanlaguna?tab=repositories"
+              >
                 restaruantemichoza
               </a>
             </p>
@@ -20,7 +23,10 @@ const Footer = () => {
           <li className="linkedin-footer">
             <FaFacebook className="iconlinkedin" title="Linkedin." />
             <p className="name-linkedin">
-              <a href="https://www.linkedin.com/in/jordan-laguna-rodríguez-893921274/">
+              <a
+                className="text-white"
+                href="https://www.linkedin.com/in/jordan-laguna-rodríguez-893921274/"
+              >
                 Restaurante Mi Choza.
               </a>
             </p>

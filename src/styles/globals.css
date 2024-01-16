@@ -48,7 +48,7 @@ body {
 
 .inic-list li {
   display: inline-block;
-  padding: 15px;
+  padding: 8px;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font: bold;
   color: white;
@@ -177,7 +177,7 @@ body {
   margin-top: 10px;
   width: 30px;
   height: 30px;
-  color: rgb(138, 137, 137);
+  color: white;
   filter: drop-shadow(2px 2px 2px rgb(38, 40, 38));
 }
 .name-email {
@@ -185,34 +185,30 @@ body {
   font-family: Georgia, "Times New Roman", Times, serif;
   margin-left: 35px;
   margin-top: -28px;
-  color: rgba(224, 223, 223, 0.724);
+  color: white;
 }
 .name-github {
   font-size: 20px;
   font-family: Georgia, "Times New Roman", Times, serif;
   margin-left: 37px;
   margin-top: -28px;
-  color: rgba(224, 223, 223, 0.724);
 }
 .name-linkedin {
   font-size: 20px;
   font-family: Georgia, "Times New Roman", Times, serif;
   margin-left: 37px;
   margin-top: -28px;
-  color: rgba(224, 223, 223, 0.724);
 }
 .icon-github {
   margin-left: 25%;
   width: 35px;
   height: 35px;
-  color: rgb(138, 137, 137);
   filter: drop-shadow(2px 2px 2px rgb(38, 40, 38));
 }
 .icon-linkedin {
   margin-left: 45%;
   width: 35px;
   height: 35px;
-  color: rgb(138, 137, 137);
   filter: drop-shadow(2px 2px 2px rgb(38, 40, 38));
 }
 @media (max-width: 768px) {

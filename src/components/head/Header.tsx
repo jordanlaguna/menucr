@@ -7,6 +7,7 @@ import { FaPlateWheat } from "react-icons/fa6";
 import { GiMeat } from "react-icons/gi";
 import { PiBowlFoodFill } from "react-icons/pi";
 import { BiSolidDrink } from "react-icons/bi";
+import { FaHome } from "react-icons/fa";
 const Header = () => {
   const [activeMenu, setActiveMenu] = useState(false);
   const router = useRouter();
@@ -17,6 +18,10 @@ const Header = () => {
   const ClickLinkHome = (event: { preventDefault: () => void }) => {
     event.preventDefault();
     router.push("/");
+  };
+  const ClickLinkDish = (event: { preventDefault: () => void }) => {
+    event.preventDefault();
+    router.push("/moduledishs/dishs");
   };
   return (
     <>
@@ -33,6 +38,16 @@ const Header = () => {
           <ul className={`inic-list ${activeMenu ? "active" : ""}`}>
             <li>
               <Link className="link-a" href="/" onClick={ClickLinkHome}>
+                <FaHome className="icon-home" />
+                Inicio
+              </Link>
+            </li>
+            <li>
+              <Link
+                className="link-a"
+                href="/moduledishs/dishs"
+                onClick={ClickLinkDish}
+              >
                 <FaPlateWheat className="icon-home" />
                 Platos
               </Link>

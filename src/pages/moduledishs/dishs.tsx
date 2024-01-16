@@ -1,18 +1,17 @@
-import Article from "@/components/article/Article";
-import Footer from "@/components/footer/Footer";
 import Header from "@/components/head/Header";
-import Section from "@/components/section/Section";
-import Link from "next/link";
+import Section from "@/components/compdishs/section/Section";
+import Article from "@/components/compdishs/article/Article";
+import Footer from "@/components/footer/Footer";
 export default function Home() {
   return (
     <>
       <main>
         <header>
           <Header />
-          <img className="imageRest" src="/img/Fondo.jpg" alt="Not found" />
+          <img className="imageRest" src="/img/Dishs.jpg" alt="Not found" />
         </header>
         <nav className="nav-container">
-          <h2 className="title-nav">Platos Favoritos</h2>
+          <h2 className="title-nav">Platos Ejecutivos</h2>
         </nav>
         <Section />
         <Article />
