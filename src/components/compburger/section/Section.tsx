@@ -17,7 +17,7 @@ const Section = () => {
             alt="Not Found"
           />
           <p className="button">
-            Hamburguesa Crispy. <br /> Precio: ₡4550.
+            Burguer Crispy. <br /> Precio: ₡4550.
           </p>
         </div>
         <div className="column">

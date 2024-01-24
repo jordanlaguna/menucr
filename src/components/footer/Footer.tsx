@@ -13,7 +13,7 @@ const Footer = () => {
             <FaInstagram className="icongithub" title="GitHub." />
             <p className="name-github">
               <a
-                className="text-white"
+                className="text-white cursor-pointer"
                 href="https://github.com/jordanlaguna?tab=repositories"
               >
                 restaruantemichoza
@@ -24,7 +24,7 @@ const Footer = () => {
             <FaFacebook className="iconlinkedin" title="Linkedin." />
             <p className="name-linkedin">
               <a
-                className="text-white"
+                className="text-white cursor-pointer"
                 href="https://www.linkedin.com/in/jordan-laguna-rodríguez-893921274/"
               >
                 Restaurante Mi Choza.

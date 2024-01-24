@@ -9,8 +9,10 @@ export default function Home() {
       <main>
         <header>
           <Header />
-          <img className="imageRest" src="/img/Fondo.jpg" alt="Not found" />
         </header>
+        <div>
+          <img className="imageRest" src="/img/Fondo.jpg" alt="Not found" />
+        </div>
         <nav className="nav-container">
           <h2 className="title-nav">Platos Favoritos</h2>
         </nav>
