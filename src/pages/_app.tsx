@@ -8,7 +8,7 @@ export default function App({ Component, pageProps }: AppProps) {
     <>
       <Component {...pageProps} />;
       <ProgressBar
-        height="4px"
+        height="5px"
         color="#e1e0e0"
         options={{ showSpinner: false }}
         shallowRouting
