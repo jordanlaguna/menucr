@@ -2,6 +2,7 @@ import Article from "@/components/article/Article";
 import Footer from "@/components/footer/Footer";
 import Header from "@/components/head/Header";
 import Section from "@/components/section/Section";
+
 export default function Home() {
   return (
     <>
